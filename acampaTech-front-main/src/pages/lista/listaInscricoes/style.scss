@@ -1,0 +1,33 @@
+@import "../../../mixins.scss";
+
+.listaDeIncricoes{
+    padding-top: 100px;
+    color: antiquewhite;
+    font-size: 16px;
+
+    a{
+        padding-left: 30px;
+    }
+
+    .excluir {
+        color: rgb(209, 26, 41);
+        text-decoration: none;
+    }
+
+    .excluir:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+
+    }
+
+    .editar {
+        color: rgb(26, 209, 209);
+        text-decoration: none;
+    }
+
+    .editar:hover{
+        color: aqua;
+        text-decoration: underline;
+    }
+}
+
